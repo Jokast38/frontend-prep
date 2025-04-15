@@ -1,0 +1,182 @@
+/* Start Global Style */
+  .container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    height: 100%;
+  }
+  
+  .login,
+  .register {
+    width: 100%;
+  }
+  
+  /*Start Login Style*/
+  .login {
+    float: left;
+    background-color: #fafafa;
+    height: 100%;
+    border-radius: 10px 0 0 10px;
+    text-align: center;
+    padding-top: 100px;
+  }
+  .login h1 {
+    margin-bottom: 40px;
+    font-size: 2.5em;
+  }
+  
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 30px;
+    border: none;
+    background-color: #eeeeef;
+  }
+  input[type="checkbox"] {
+    float: left;
+    margin-right: 5px;
+  }
+  .login span {
+    float: left;
+  }
+  .login a {
+    float: right;
+    text-decoration: none;
+    color: #000;
+    transition: 0.3s all ease-in-out;
+  }
+  .login a:hover {
+    color: rgb(0, 153, 255);
+    font-weight: bold;
+  }
+  .login button {
+    width: 100%;
+    margin: 30px 0;
+    padding: 10px;
+    border: none;
+    background-color: rgb(0, 153, 255); /* Bleu */
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.3s all ease-in-out;
+  }
+  .login button:hover {
+    width: 97%;
+    font-size: 22px;
+    border-radius: 5px;
+  }
+  .login hr {
+    width: 30%;
+    display: inline-block;
+  }
+  
+  .login p {
+    display: inline-block;
+    margin: 0px 10px 30px;
+  }
+  .login ul {
+    list-style: none;
+    margin-bottom: 40px;
+  }
+  .login ul li {
+    display: inline-block;
+    margin-right: 30px;
+    cursor: pointer;
+  }
+  .login ul li:hover {
+    opacity: 0.6;
+  }
+  .login ul li:last-child {
+    margin-right: 0;
+  }
+  .login .copyright {
+    display: inline-block;
+    float: none;
+  }
+  
+  /*Start Register Style*/
+  .register {
+    float: left;
+    background-color: #fafafa;
+    height: 100%;
+    border-radius: 10px 0 0 10px;
+    text-align: center;
+    padding-top: 100px;
+  }
+  .register h1 {
+    margin-bottom: 40px;
+    font-size: 2.5em;
+  }
+  
+  input[type="text"],
+  input[type="username"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 30px;
+    border: none;
+    background-color: #eeeeef;
+  }
+  input[type="checkbox"] {
+    float: left;
+    margin-right: 5px;
+  }
+  .register span {
+    float: left;
+  }
+  .register a {
+    float: right;
+    text-decoration: none;
+    color: #000;
+    transition: 0.3s all ease-in-out;
+  }
+  .register a:hover {
+    color: rgb(0, 153, 255);
+    font-weight: bold;
+  }
+  .register button {
+    width: 100%;
+    margin: 30px 0;
+    padding: 10px;
+    border: none;
+    background-color: rgb(0, 153, 255); /* Bleu */
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.3s all ease-in-out;
+  }
+  .register button:hover {
+    width: 97%;
+    font-size: 22px;
+    border-radius: 5px;
+  }
+  .register hr {
+    width: 30%;
+    display: inline-block;
+  }
+  
+  .register p {
+    display: inline-block;
+    margin: 0px 10px 30px;
+  }
+  .register ul {
+    list-style: none;
+    margin-bottom: 40px;
+  }
+  .register ul li {
+    display: inline-block;
+    margin-right: 30px;
+    cursor: pointer;
+  }
+  .register ul li:hover {
+    opacity: 0.6;
+  }
+  .register ul li:last-child {
+    margin-right: 0;
+  }
+  .register .copyright {
+    display: inline-block;
+    float: none;
+  }
+  
